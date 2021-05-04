@@ -1,0 +1,10 @@
+svg {
+    color: #FFAD1F;
+    font-size: 40px;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 20px;
+}
