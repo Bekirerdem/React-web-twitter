@@ -1,0 +1,28 @@
+.box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 99px;
+}
+
+.box:hover {
+    color: var(--c-text-color);
+}
+
+.body {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.body * {
+    display: block;
+}
+
+.slug {
+    color: var(--c-gray);
+}
+
+.icon {
+    font-size: 16px;
+    margin-left: auto;
+}
