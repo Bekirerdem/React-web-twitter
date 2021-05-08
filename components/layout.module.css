@@ -1,6 +1,6 @@
 .layout {
     display: grid;
-    grid-template-columns: 230px 1fr;
+    grid-template-columns: auto 1fr;
     background-color: var(--c-primary);
     min-height: 100vh;
     max-width: 670px;
@@ -11,6 +11,6 @@
 @media screen and (min-width: 980px) {
     .layout {
         max-width: 1270px;
-        grid-template-columns: 230px 1fr 230px;
+        grid-template-columns: auto 1fr 310px;
     }
 }

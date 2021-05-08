@@ -8,15 +8,23 @@ import { Details } from "./icons";
 import Button from "./button";
 import TextBody from "./text-body";
 
-function ProfileBox({ name = "Bekir Erdem", slug = "l3ekirerdem" }) {
+function ProfileBox({
+  flat = false,
+  name = "Bekir Erdem",
+  slug = "l3ekirerdem",
+}) {
   return (
     <Button className={cn([styles.box])}>
-      <Photo />
-      <div className={styles.body}>
-        <TextBody bold>{name}</TextBody>
-        <TextBody className={styles.slug}>@{slug}</TextBody>
-      </div>
-      <Details className={styles.icon} />
+      <Photo size={39} />
+      {!flat && (
+        <>
+          <div className={styles.body}>
+            <TextBody bold>{name}</TextBody>
+            <TextBody className={styles.slug}>@{slug}</TextBody>
+          </div>
+          <Details className={styles.icon} />
+        </>
+      )}
     </Button>
   );
 }
