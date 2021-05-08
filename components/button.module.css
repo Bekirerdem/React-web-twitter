@@ -6,13 +6,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--fade);
+    text-decoration: none;
 }
 
 .button:hover {
-    background-color: var(--c-theme-20);
     color: var(--c-theme);
+    background-color: var(--c-theme-20);
 }
 
 .fullWidth {
-    width: 100%;
+    width: 100% !important;
 }
