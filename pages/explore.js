@@ -3,11 +3,11 @@ import React from "react";
 import Layout from "../components/layout";
 
 
-function HomePage() {
+function ExplorePage() {
 
   return (
-    <Layout>Ana Sayfa</Layout>
+    <Layout>Explore</Layout>
   );
 }
 
-export default HomePage;
+export default ExplorePage;

@@ -3,11 +3,11 @@ import React from "react";
 import Layout from "../components/layout";
 
 
-function HomePage() {
+function MorePage() {
 
   return (
-    <Layout>Ana Sayfa</Layout>
+    <Layout>More</Layout>
   );
 }
 
-export default HomePage;
+export default MorePage;
