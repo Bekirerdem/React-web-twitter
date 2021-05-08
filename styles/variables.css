@@ -1,7 +1,7 @@
 :root {
     --c-primary: #000;
     --c-theme: rgba(255, 173, 31, 1);
-    --c-theme-20: rgba(255, 173, 31, .2);
+    --c-theme-20: rgba(255, 173, 31, .1);
     --c-text-color: #fff;
     --c-border-color: #2F3336;
     --c-gray: #6E767D;
