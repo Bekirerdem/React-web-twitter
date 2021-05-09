@@ -1,7 +1,15 @@
 .navButton {
     position: relative;
-    padding: 7px;
+    padding: 9px;
     transition: var(--fade);
+}
+
+.navButton:global(.twitter) {
+    color: var(--c-theme);
+}
+
+:global(html:not(.light)) .navButton:global(.twitter) {
+    color: white;
 }
 
 .navButton svg {
@@ -32,3 +40,4 @@
     border: 1px solid var(--c-primary);
     font-size: 11px;
 }
+
