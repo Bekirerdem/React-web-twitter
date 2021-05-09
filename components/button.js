@@ -30,7 +30,7 @@ function Button({ full = false, children, className, ...props }) {
     >
       {children}
     </Comp>
-  );
+  )
 }
 
-export default Button;
+export default Button
