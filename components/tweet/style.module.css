@@ -1,0 +1,4 @@
+.tweet {
+    display: grid;
+    grid-template-areas: 'avatar body';
+}
