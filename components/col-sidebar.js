@@ -6,6 +6,7 @@ import styles from "./col-sidebar.module.css";
 import Navigation from "./navigation";
 import ThemeButton from "./theme-button";
 import ProfileBox from "./profile-box";
+import * as Icon from "./icons";
 
 function SideBar({ flat }) {
   return (
@@ -13,7 +14,7 @@ function SideBar({ flat }) {
       <Navigation flat={flat} />
       <div className={styles.tweet}>
         <ThemeButton big full={!flat}>
-          {flat ? "A" : "Tweet"}
+          {flat ? <Icon.Frame/> : "Tweet"}
         </ThemeButton>
       </div>
       <div className={styles.profile}>

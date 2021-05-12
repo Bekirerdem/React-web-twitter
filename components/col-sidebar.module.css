@@ -15,6 +15,11 @@
     margin-bottom: 20px;
 }
 
+.tweet svg {
+    height: 21px;
+    min-width: 21px;
+}
+
 @media screen and (min-width: 1270px) {
     .sidebar {
         align-items: flex-start;
