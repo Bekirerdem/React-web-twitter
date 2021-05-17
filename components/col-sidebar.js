@@ -21,7 +21,7 @@ function SideBar({ flat }) {
         <ProfileBox flat={flat} />
       </div>
     </div>
-  );
+  )
 }
 
-export default SideBar;
+export default SideBar

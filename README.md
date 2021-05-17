@@ -11,6 +11,6 @@
 
 ### TODO
 - [x] Tema desteği
-- [x] Tweet component
-- [x] Timeline için api
+- [ ] Tweet component
+- [ ] Timeline için api
 - [ ] Tweet gönderme için modal
